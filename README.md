@@ -16,12 +16,11 @@ or with some options
 <div id="qrcode"></div>
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
-	text: "http://jindo.dev.naver.com/collie",
-	width: 128,
-	height: 128,
-	colorDark : "#000000",
-	colorLight : "#ffffff",
-	correctLevel : QRCode.CorrectLevel.H
+	centerImageUri: 'https://remoteambition.com/assets/logo.809a7f3f.png',
+	probeColor: '#706eff',
+	width : 500,
+	height : 500,
+	showGrid: true
 });
 </script>
 ```
